@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 session_start();
 
-if ((!isset($_SESSION['login'])==true) and (!isset($_SESSION['password'])==true)) {
+if ((!isset($_SESSION['login'])==true) && (!isset($_SESSION['password'])==true)) {
 
 
     unset($_SESSION['login']);
