@@ -1,0 +1,17 @@
+{
+    "name": "root/public_html",
+    "authors": [
+        {
+            "name": "Ravel Mello",
+            "email": "ravelmello3@icloud.com"
+        }
+    ],
+    "require": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Ravel\\Treinamento\\Sessao\\": "src/"
+        }
+    }
+}
